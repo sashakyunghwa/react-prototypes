@@ -1,7 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'; //importing react framework
+import ReactDOM from 'react-dom'; //importing the rea
+import App from './components/app';
 
 ReactDOM.render(
-    <h1 className="container">React Prototypes!</h1>,
+    <App/>,
     document.getElementById('root')
 );
+
