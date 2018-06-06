@@ -7,7 +7,7 @@ function luckyNumber(){
 
 function greeting(user){
    return <div className="container">
-       <h1>Hello person</h1>
+       <h1>Hello {user.name}</h1>
        <h2 className="text-muted">This is your lucky number: {user.luckyNumber}.</h2>
        </div>
 };
